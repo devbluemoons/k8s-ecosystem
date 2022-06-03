@@ -5,11 +5,11 @@ kubernetes centerd projects by CNCF
 The package manager for Kubernetes
 
 ###### install / uninstall
-```sh
+```ShellSession
 # uninstall (Debian/Ubuntu)
-$ which helm
-/some/path/to/helm
-$ rm -rf /some/path/to/helm
+which helm
+# /some/path/to/helm
+rm -rf /some/path/to/helm
 
 # install (Debian/Ubuntu)
 curl https://baltocdn.com/helm/signing.asc | sudo apt-key add -
@@ -19,7 +19,7 @@ sudo apt-get update
 sudo apt-get install helm
 ```
 ###### common
-```sh
+```ShellSession
 # check version
 helm version
 
